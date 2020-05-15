@@ -1,8 +1,11 @@
-% Comparing OPF and Approximated OPF (V1.0).
-% Dveploped by Hamid Bostani, 2017.
-% "Bostani, H., Sheikhan, M. and Mahboobi, B., 2017, October. Developing a 
-% fast supervised optimum-path forest based on coreset. In 2017 Artificial 
-% Intelligence and Signal Processing Conference (AISP)(pp. 172-177). IEEE."
+% MATLAB code for coreset-based Optimum-path Forest
+% Reference: H. Bostani, M. Sheikhan, B. Mahboobi, “Developing a Fast Supervised Optimum-path Forest Based on Coreset,”
+%            In Proc. 19th International Symposium on Artificial Intelligence and Signal Processing (AISP’2017), 
+%            pp. 172-177, 2017. DOI: 10.1109/AISP.2017.8324076
+%
+% Coded by:  Hamid Bostani (st_h_bostani@azad.ac.ir), 2017.
+%
+% Code compatible: MATLAB 2014a and later versions.
 
 clear;
 clc;
@@ -20,8 +23,13 @@ m=size(Features,2);
 
 %Region: Finding the protoypes
 MST=creatMST(P_Set,Features);
-Prototypes=findPrototypes(P_Set,MST,9);
-Prototypes=Prototypes(:,1:2);
+TotalPrototypes=findPrototypes(P_Set,MST,9);
+Labels=unique(TotalPrototypes(2,:));
+Prototypes=zeros(2,size(Labels,2));
+for lb=1:size(Labels,2)
+    lbTemp=find(TotalPrototypes(2,:)==Labels(lb));
+    Prototypes(:,lb)=TotalPrototypes(:,lbTemp(1));
+end
 %End region
 
 %Region: Constructing OPF
