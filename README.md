@@ -1,4 +1,4 @@
-# Coreset-Based-OPF1
+# Coreset-Based Optimum-path Forest (Version 1.0.0)
 MATLAB code for the coreset-based Optimum-path Forest
 
 Reference: H. Bostani, M. Sheikhan, B. Mahboobi, “Developing a Fast Supervised Optimum-path Forest Based on Coreset,”
