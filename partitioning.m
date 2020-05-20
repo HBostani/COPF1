@@ -1,11 +1,11 @@
 % MATLAB code for coreset-based Optimum-path Forest
-% Reference: H. Bostani, M. Sheikhan, B. Mahboobi, ìDeveloping a Fast Supervised Optimum-path Forest Based on Coreset,î
-%            In Proc. 19th International Symposium on Artificial Intelligence and Signal Processing (AISPí2017), 
+% Reference: H. Bostani, M. Sheikhan, B. Mahboobi, ‚ÄúDeveloping a Fast Supervised Optimum-path Forest Based on Coreset,‚Äù
+%            In Proc. 19th International Symposium on Artificial Intelligence and Signal Processing (AISP‚Äô2017), 
 %            pp. 172-177, 2017. DOI: 10.1109/AISP.2017.8324076
 %
 % Coded by:  Hamid Bostani (st_h_bostani@azad.ac.ir), 2017.
 %
-% Purpose: Defining the partitioning step of coreset construction algorithm
+% Purpose: Defining the partitioning step of the proposed coreset construction algorithm
 %
 % Code compatible: MATLAB 2014a and later versions.
 
