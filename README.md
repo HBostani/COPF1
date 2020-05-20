@@ -7,7 +7,7 @@ Reference: H. Bostani, M. Sheikhan, B. Mahboobi, “Developing a Fast Supervised
 
 Coded by:  Hamid Bostani (st_h_bostani@azad.ac.ir), 2017.
 
-Purpose: The main file of comparing standard OPF and the proposed Coreset-based OPF
+Hint: Use "OPFsComparison.m" to start working with this source code.
 
 Code compatible: MATLAB 2014a and later versions.
 
