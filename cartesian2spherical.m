@@ -5,6 +5,8 @@
 %
 % Coded by:  Hamid Bostani (st_h_bostani@azad.ac.ir), 2017.
 %
+% Purpose: Transforming the input points from cartesian to spherical coordinates
+% 
 % Code compatible: MATLAB 2014a and later versions.
 
 function [ phi,radius ] = cartesian2spherical ( vector,m )

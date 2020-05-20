@@ -5,6 +5,8 @@
 %
 % Coded by:  Hamid Bostani (st_h_bostani@azad.ac.ir), 2017.
 %
+% Purpose: Defining the sampling step of coreset construction algorithm
+%
 % Code compatible: MATLAB 2014a and later versions.
 
 function [ output ] = sampling(T,partList)

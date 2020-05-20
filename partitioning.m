@@ -5,6 +5,8 @@
 %
 % Coded by:  Hamid Bostani (st_h_bostani@azad.ac.ir), 2017.
 %
+% Purpose: Defining the partitioning step of coreset construction algorithm
+%
 % Code compatible: MATLAB 2014a and later versions.
 
 function [ partList] = partitioning(polarList, partList,anglesTemp,lbRadius,ubRadius,threshold,IsLastRing,m,n,call) 

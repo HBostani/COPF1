@@ -5,6 +5,9 @@
 %
 % Coded by:  Hamid Bostani (st_h_bostani@azad.ac.ir), 2017.
 %
+% Purpose: Finding the Prototypes (key nodes) of the input graph derived from the input data set
+%          based on Minimum Spanning Tree
+%
 % Code compatible: MATLAB 2014a and later versions.
 
 function [Prototypes]=findPrototypes(Z1,MST,LabelIndex)

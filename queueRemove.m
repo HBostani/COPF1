@@ -5,6 +5,8 @@
 %
 % Coded by:  Hamid Bostani (st_h_bostani@azad.ac.ir), 2017.
 %
+% Purpose: Removing an item from the priority queue used in the training phase of OPF
+%
 % Code compatible: MATLAB 2014a and later versions.
 
 function [node,cost,parent,label,root,QNew] = queueRemove(Q)

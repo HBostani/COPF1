@@ -5,6 +5,10 @@
 %
 % Coded by:  Hamid Bostani (st_h_bostani@azad.ac.ir), 2017.
 %
+% Purpose: Calculating the betweenness centrality used for selecting the
+%          representative points of obtained sectors in the proposed coreset
+%          construction algorithm
+%
 % Code compatible: MATLAB 2014a and later versions.
 
 function [ output ] = editBC(T,k)

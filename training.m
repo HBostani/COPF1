@@ -5,6 +5,8 @@
 %
 % Coded by:  Hamid Bostani (st_h_bostani@azad.ac.ir), 2017.
 %
+% Purpose: Defining train function of OPF
+%
 % Code compatible: MATLAB 2014a and later versions.
 
 function [ T,TOrdered ] = training(T,Z1, prototypes,features)

@@ -5,6 +5,8 @@
 %
 % Coded by:  Hamid Bostani (st_h_bostani@azad.ac.ir), 2017.
 %
+% Purpose: Finding the Minimum Spanning Tree of the input derived graph used the prototypes selection
+% 
 % Code compatible: MATLAB 2014a and later versions.
 
 function [MST] = creatMST(Z1,F)   
